@@ -1,11 +1,17 @@
 import React from "react";
+import NavBar from "./NavBar";
+import Home from "./Home";
+import About from "./About";
+import { render } from "@testing-library/react";
+
+
 
 function App() {
   return (
     <div>
-      <NavBar />
-      <Home />
-      <About />
+     <NavBar />
+     <Home />
+     <About />
     </div>
   );
 }
